@@ -14,15 +14,25 @@ import PlaygroundSupport
  
  */
 // Create canvas
-let canvas = Canvas(width: 400, height: 300)
+let canvas = Canvas(width: 400, height: 100)
 /*:
  ## Add your code below
  
  Fill in the blanks below the comments
  */
 // Loop 4 times, counting up by 100, from 0
+for x in stride(from: 0, through: 300, by: 100) {
+    canvas.drawRectangle(bottomLeftX: x, bottomLeftY: 0, width: 100, height: 100)
 
-// Inside the loop, generate a random number (1 or 2)
+// Generate a random number )1 or 2)
+
+// Generate a decision on fill colour using IF statement
+    
+
+}
+
+
+
 
 // Draw a square at the current position – black fill, white text when random number is one, otherwise, colours are inverted
 
